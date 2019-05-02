@@ -50,6 +50,10 @@
 
 pragma Singleton
 import QtQuick 2.11
+import QtQuick.Controls 2.4
+import PlusButton 1.0
+import QtQuick.Layouts 1.3
+import QtGraphicalEffects 1.0
 
 QtObject {
     ///////// Font icon loader /////////
@@ -88,11 +92,4 @@ QtObject {
 
     readonly property int buttonsizes_width:  59  //69
     readonly property int buttonsizes_height: 59 //69
-
-
-//    readonly property int width: 500
-//    readonly property int height: 800
-
-//    readonly property color backgroundColor: "#443224"
-//    readonly property int defaultMargin: 8
 }
